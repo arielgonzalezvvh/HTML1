@@ -1,0 +1,371 @@
+/* Reseteo y estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+#nav {
+    background-color:   #000000;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+}
+
+.logo {
+    height: 40px;
+    cursor: pointer;
+}
+
+.casa1 {
+    height: 50px;
+    background-color: #585858;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    background-color: #1f1f1f;
+    border-radius: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.search-icon {
+    margin-right: 10px;
+    
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    color: #555;
+    font-size: 16px;
+}
+
+.search-bar input::placeholder {
+    color: #aaa;
+}
+
+.lupa {
+    height: 20px;
+    margin-left: 10px;
+}
+
+
+
+.one {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+.two {
+    background-color: #efefef;
+    border-radius: 30px;
+    padding: 15px;
+    width: 140px;
+    text-align: center;
+    color: #432200;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #121212;
+}
+
+/* Sección fija */
+
+
+
+.bliblioteca {
+    position: absolute;
+    margin-left: 50px;
+    font-size: 15px;
+    background-color: #121212da;
+    color: #939393;
+    width: 415px;
+    transition: all 0.3s ease;
+    
+}
+
+.bliblioteca:hover{
+    background-color: rgba(68, 66, 61, 0.274);
+    transform: scale(1.1);
+}
+
+.mas {
+    height: 20px;
+    margin-left: 200px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mas:hover {
+    background-color: rgba(212, 197, 159, 0.274);
+    transform: scale(1.1);
+}
+
+
+.crea_tu {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #f9f8f6;
+    background-color: #1f1f1f;
+    
+}
+
+.muy {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #f9f8f6;
+}
+
+.playlist {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 10px;
+    width: 140px;
+    color: #1f160b;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.playlist:hover {
+    background-color: rgba(241, 229, 197, 0.534);
+    transform: scale(1.1);
+}
+
+
+.Busquemos {
+    margin-top: 30px;
+    background-color: #1f1f1f;
+
+}
+
+.seguridades {
+    background-color: #1f1f1f;
+    margin-top: 50px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #8ea19b;
+    padding-right: 14px;
+    font-size: 12px;
+    background-color: #121212;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+a:hover{
+    background-color: rgba(241, 229, 197, 0.356);
+    transform: scale(1.1);
+}
+
+.three {
+    justify-items: center;
+    margin-left: 15px;
+}
+
+.threes {
+    margin-left: 13px;
+}
+
+.latinoamérica {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 5px;
+    width: 180px;
+    color: #1f160b;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.latinoamérica:hover {
+    background-color: rgba(241, 229, 197, 0.356);
+    transform: scale(1.1);
+}
+
+/* Sección de artistas */
+.Artistas {
+    flex-wrap: wrap;
+    margin-left: 500px;
+    width: 1100px;
+    background-color: #121212;
+    color: #f7fdff;
+    cursor: pointer;
+}
+
+
+
+.mostrar {
+    color: #b3b3ae;
+    margin-left: 670px;
+}
+
+.artistas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    color: #e7e7e7;
+    cursor: pointer;
+}
+
+.artistas2 {
+    border-radius: 80px;
+    height: 150px;
+    transition: all 0.3s ease;
+}
+
+.artista{
+    transition: all 0.3s ease;
+}
+
+.artista:hover{
+    background-color: rgba(87, 83, 73, 0.356);
+    transform: scale(1.1);
+}
+
+
+.artistas3 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* Sección de álbumes */
+.albumes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 30px;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+.cencillos{
+    padding: 5px;
+    width: 1000px;
+    font-size: 15px;
+    
+}
+
+.populares{
+    margin-left: 550px;
+    color: #b3b3b3;
+}
+
+.albuns{
+    width: 140px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.albuns:hover{
+    background-color: rgba(87, 83, 73, 0.356);
+    transform: scale(1.1);
+}
+
+.albuns2 {
+    height: 150px;
+    font-size: 10px;
+}
+
+
+
+.mostrar2{
+    margin-left: 800px;
+    color: #b3b3b3;
+}
+
+
+
+.mostrar3{
+    margin-left: 650px;
+    color: #b3b3b3;
+}
+
+.spotify-footer {
+    background-color: #121212;
+    color: #b3b3b3;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.column h4 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column li {
+    margin-bottom: 8px;
+}
+
+.column a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.column a:hover {
+    color: #99a69f;
+    text-decoration: underline;
+}
+
+
+.twitter{
+    height: 30px;
+    border-radius: 30px;
+    width: 30px;
+}
+
+.final{
+    margin-top: 30px;
+    margin-left: 100px;
+}
